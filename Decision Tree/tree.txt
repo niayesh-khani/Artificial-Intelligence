@@ -1,0 +1,2518 @@
+If step == 1
+  If newbalanceDest == 0
+    If amount == 0
+      If oldbalanceDest == 4
+        Predict 0
+      If oldbalanceDest == 1
+        If newbalanceOrig == 2
+          Predict 0
+        If newbalanceOrig == 1
+          If type == 1
+            If oldbalanceOrg == 1
+              Predict 0
+        If newbalanceOrig == 0
+          Predict 0
+      If oldbalanceDest == 2
+        Predict 0
+      If oldbalanceDest == 0
+        If newbalanceOrig == 1
+          If type == 1
+            If oldbalanceOrg == 1
+              Predict 0
+        If newbalanceOrig == 2
+          If type == 1
+            If oldbalanceOrg == 1
+              Predict 0
+        If newbalanceOrig == 0
+          Predict 0
+      If oldbalanceDest == 3
+        If newbalanceOrig == 1
+          If type == 1
+            If oldbalanceOrg == 1
+              Predict 0
+        If newbalanceOrig == 0
+          Predict 0
+        If newbalanceOrig == 2
+          Predict 0
+    If amount == 4
+      Predict 0
+    If amount == 3
+      Predict 0
+    If amount == 1
+      If oldbalanceDest == 2
+        Predict 0
+      If oldbalanceDest == 0
+        Predict 0
+      If oldbalanceDest == 3
+        If newbalanceOrig == 3
+          Predict 1
+        If newbalanceOrig == 2
+          Predict 0
+    If amount == 2
+      If oldbalanceDest == 3
+        Predict 1
+      If oldbalanceDest == 0
+        Predict 0
+  If newbalanceDest == 4
+    Predict 0
+  If newbalanceDest == 3
+    If newbalanceOrig == 1
+      Predict 0
+    If newbalanceOrig == 2
+      Predict 0
+    If newbalanceOrig == 0
+      If oldbalanceOrg == 2
+        If amount == 1
+          If type == 1
+            If oldbalanceDest == 1
+              Predict 0
+        If amount == 2
+          Predict 0
+      If oldbalanceOrg == 1
+        Predict 0
+      If oldbalanceOrg == 3
+        Predict 0
+    If newbalanceOrig == 4
+      If oldbalanceOrg == 3
+        If amount == 2
+          Predict 0
+        If amount == 4
+          If type == 1
+            If oldbalanceDest == 1
+              Predict 0
+      If oldbalanceOrg == 2
+        Predict 0
+      If oldbalanceOrg == 1
+        Predict 0
+    If newbalanceOrig == 3
+      Predict 0
+  If newbalanceDest == 2
+    If amount == 2
+      If newbalanceOrig == 2
+        Predict 0
+      If newbalanceOrig == 3
+        If type == 1
+          If oldbalanceOrg == 1
+            If oldbalanceDest == 1
+              Predict 0
+    If amount == 3
+      Predict 0
+    If amount == 4
+      If newbalanceOrig == 2
+        If type == 1
+          If oldbalanceOrg == 1
+            If oldbalanceDest == 1
+              Predict 0
+      If newbalanceOrig == 1
+        Predict 0
+      If newbalanceOrig == 0
+        Predict 0
+    If amount == 1
+      Predict 0
+  If newbalanceDest == 1
+    If oldbalanceOrg == 1
+      Predict 0
+    If oldbalanceOrg == 0
+      Predict 0
+    If oldbalanceOrg == 2
+      Predict 1
+    If oldbalanceOrg == 3
+      Predict 0
+If step == 2
+  If oldbalanceOrg == 1
+    If oldbalanceDest == 2
+      If amount == 0
+        If type == 2
+          If newbalanceOrig == 2
+            If newbalanceDest == 2
+              Predict 0
+      If amount == 3
+        If type == 2
+          If newbalanceOrig == 2
+            If newbalanceDest == 2
+              Predict 0
+      If amount == 2
+        Predict 0
+    If oldbalanceDest == 0
+      Predict 0
+    If oldbalanceDest == 1
+      Predict 0
+    If oldbalanceDest == 3
+      If amount == 0
+        If type == 2
+          If newbalanceOrig == 2
+            If newbalanceDest == 2
+              Predict 0
+      If amount == 3
+        Predict 0
+    If oldbalanceDest == 4
+      Predict 0
+  If oldbalanceOrg == 0
+    If oldbalanceDest == 3
+      Predict 0
+    If oldbalanceDest == 1
+      Predict 0
+    If oldbalanceDest == 0
+      Predict 0
+    If oldbalanceDest == 2
+      If amount == 0
+        If type == 2
+          If newbalanceOrig == 2
+            If newbalanceDest == 2
+              Predict 0
+      If amount == 3
+        Predict 0
+  If oldbalanceOrg == 2
+    If oldbalanceDest == 3
+      If amount == 0
+        If type == 2
+          If newbalanceOrig == 2
+            If newbalanceDest == 2
+              Predict 0
+      If amount == 4
+        Predict 0
+      If amount == 2
+        Predict 0
+      If amount == 1
+        Predict 0
+    If oldbalanceDest == 0
+      Predict 0
+    If oldbalanceDest == 2
+      If amount == 0
+        If type == 2
+          If newbalanceOrig == 2
+            If newbalanceDest == 2
+              Predict 0
+      If amount == 2
+        If type == 2
+          If newbalanceOrig == 2
+            If newbalanceDest == 2
+              Predict 0
+      If amount == 1
+        If type == 2
+          If newbalanceOrig == 2
+            If newbalanceDest == 2
+              Predict 0
+      If amount == 4
+        Predict 0
+    If oldbalanceDest == 4
+      Predict 0
+    If oldbalanceDest == 1
+      If amount == 1
+        Predict 0
+      If amount == 0
+        If type == 2
+          If newbalanceOrig == 2
+            If newbalanceDest == 2
+              Predict 0
+      If amount == 4
+        Predict 0
+      If amount == 2
+        Predict 0
+  If oldbalanceOrg == 3
+    If oldbalanceDest == 2
+      Predict 0
+    If oldbalanceDest == 3
+      If amount == 4
+        Predict 0
+      If amount == 1
+        If type == 2
+          If newbalanceOrig == 2
+            If newbalanceDest == 2
+              Predict 0
+      If amount == 2
+        If type == 2
+          If newbalanceOrig == 2
+            If newbalanceDest == 2
+              Predict 0
+    If oldbalanceDest == 4
+      If type == 2
+        If amount == 2
+          If newbalanceOrig == 2
+            If newbalanceDest == 2
+              Predict 0
+    If oldbalanceDest == 0
+      Predict 0
+    If oldbalanceDest == 1
+      If amount == 2
+        Predict 0
+      If amount == 1
+        If type == 2
+          If newbalanceOrig == 2
+            If newbalanceDest == 2
+              Predict 0
+  If oldbalanceOrg == 4
+    If oldbalanceDest == 4
+      Predict 1
+    If oldbalanceDest == 0
+      Predict 0
+If step == 3
+  If oldbalanceDest == 0
+    If newbalanceOrig == 2
+      If amount == 0
+        Predict 0
+      If amount == 1
+        If newbalanceDest == 3
+          Predict 0
+        If newbalanceDest == 2
+          If type == 3
+            If oldbalanceOrg == 3
+              Predict 0
+      If amount == 2
+        If newbalanceDest == 3
+          Predict 0
+        If newbalanceDest == 2
+          If type == 3
+            If oldbalanceOrg == 3
+              Predict 0
+    If newbalanceOrig == 0
+      If oldbalanceOrg == 1
+        If amount == 0
+          If type == 3
+            If newbalanceDest == 3
+              Predict 0
+        If amount == 1
+          Predict 0
+        If amount == 3
+          Predict 0
+        If amount == 2
+          Predict 0
+      If oldbalanceOrg == 2
+        If amount == 0
+          If type == 3
+            If newbalanceDest == 3
+              Predict 0
+        If amount == 2
+          If type == 3
+            If newbalanceDest == 3
+              Predict 0
+        If amount == 1
+          Predict 0
+      If oldbalanceOrg == 0
+        If type == 3
+          If amount == 3
+            If newbalanceDest == 3
+              Predict 0
+      If oldbalanceOrg == 3
+        If amount == 2
+          Predict 0
+        If amount == 1
+          If type == 3
+            If newbalanceDest == 3
+              Predict 0
+      If oldbalanceOrg == 4
+        Predict 0
+    If newbalanceOrig == 1
+      Predict 0
+  If oldbalanceDest == 1
+    Predict 0
+  If oldbalanceDest == 3
+    If oldbalanceOrg == 2
+      Predict 0
+    If oldbalanceOrg == 3
+      Predict 0
+    If oldbalanceOrg == 1
+      If amount == 0
+        Predict 0
+      If amount == 3
+        If type == 3
+          If newbalanceOrig == 3
+            If newbalanceDest == 3
+              Predict 0
+      If amount == 2
+        Predict 0
+    If oldbalanceOrg == 0
+      If type == 3
+        If amount == 3
+          If newbalanceOrig == 3
+            If newbalanceDest == 3
+              Predict 0
+  If oldbalanceDest == 2
+    Predict 0
+  If oldbalanceDest == 4
+    If oldbalanceOrg == 3
+      If newbalanceDest == 3
+        Predict 0
+      If newbalanceDest == 4
+        If type == 3
+          If amount == 3
+            If newbalanceOrig == 3
+              Predict 0
+    If oldbalanceOrg == 2
+      If type == 3
+        If amount == 3
+          If newbalanceOrig == 3
+            If newbalanceDest == 3
+              Predict 0
+    If oldbalanceOrg == 1
+      Predict 0
+If step == 4
+  If oldbalanceOrg == 3
+    If oldbalanceDest == 2
+      Predict 0
+    If oldbalanceDest == 1
+      Predict 0
+    If oldbalanceDest == 0
+      Predict 0
+    If oldbalanceDest == 3
+      If amount == 4
+        Predict 0
+      If amount == 1
+        Predict 1
+      If amount == 2
+        If type == 4
+          If newbalanceOrig == 4
+            If newbalanceDest == 4
+              Predict 0
+    If oldbalanceDest == 4
+      Predict 0
+  If oldbalanceOrg == 0
+    If newbalanceDest == 0
+      Predict 0
+    If newbalanceDest == 1
+      If amount == 0
+        If type == 4
+          If newbalanceOrig == 4
+            If oldbalanceDest == 4
+              Predict 0
+      If amount == 3
+        If type == 4
+          If newbalanceOrig == 4
+            If oldbalanceDest == 4
+              Predict 0
+    If newbalanceDest == 3
+      Predict 0
+    If newbalanceDest == 2
+      Predict 0
+  If oldbalanceOrg == 1
+    If newbalanceDest == 2
+      If amount == 0
+        If type == 4
+          If newbalanceOrig == 4
+            If oldbalanceDest == 4
+              Predict 0
+      If amount == 3
+        Predict 0
+      If amount == 1
+        Predict 0
+      If amount == 2
+        Predict 0
+    If newbalanceDest == 1
+      Predict 0
+    If newbalanceDest == 0
+      Predict 0
+    If newbalanceDest == 3
+      If amount == 0
+        If type == 4
+          If newbalanceOrig == 4
+            If oldbalanceDest == 4
+              Predict 0
+      If amount == 1
+        Predict 0
+      If amount == 3
+        Predict 0
+    If newbalanceDest == 4
+      Predict 0
+  If oldbalanceOrg == 2
+    If oldbalanceDest == 1
+      Predict 0
+    If oldbalanceDest == 3
+      Predict 0
+    If oldbalanceDest == 0
+      Predict 0
+    If oldbalanceDest == 4
+      Predict 0
+    If oldbalanceDest == 2
+      If amount == 2
+        If type == 4
+          If newbalanceOrig == 4
+            If newbalanceDest == 4
+              Predict 0
+      If amount == 4
+        Predict 0
+      If amount == 1
+        If type == 4
+          If newbalanceOrig == 4
+            If newbalanceDest == 4
+              Predict 0
+      If amount == 0
+        Predict 0
+  If oldbalanceOrg == 4
+    If oldbalanceDest == 4
+      Predict 1
+    If oldbalanceDest == 0
+      Predict 0
+If step == 5
+  If amount == 0
+    If oldbalanceDest == 2
+      If newbalanceOrig == 1
+        If type == 5
+          If oldbalanceOrg == 5
+            If newbalanceDest == 5
+              Predict 0
+      If newbalanceOrig == 0
+        Predict 0
+      If newbalanceOrig == 2
+        Predict 0
+    If oldbalanceDest == 3
+      If newbalanceOrig == 0
+        Predict 0
+      If newbalanceOrig == 1
+        If type == 5
+          If oldbalanceOrg == 5
+            If newbalanceDest == 5
+              Predict 0
+      If newbalanceOrig == 2
+        Predict 0
+    If oldbalanceDest == 1
+      Predict 0
+    If oldbalanceDest == 0
+      If newbalanceOrig == 1
+        If type == 5
+          If oldbalanceOrg == 5
+            If newbalanceDest == 5
+              Predict 0
+      If newbalanceOrig == 0
+        Predict 0
+      If newbalanceOrig == 2
+        If type == 5
+          If oldbalanceOrg == 5
+            If newbalanceDest == 5
+              Predict 0
+  If amount == 2
+    If oldbalanceDest == 2
+      If newbalanceOrig == 2
+        If type == 5
+          If oldbalanceOrg == 5
+            If newbalanceDest == 5
+              Predict 0
+      If newbalanceOrig == 3
+        If type == 5
+          If oldbalanceOrg == 5
+            If newbalanceDest == 5
+              Predict 0
+    If oldbalanceDest == 3
+      If newbalanceOrig == 3
+        If type == 5
+          If oldbalanceOrg == 5
+            If newbalanceDest == 5
+              Predict 0
+      If newbalanceOrig == 2
+        Predict 0
+    If oldbalanceDest == 0
+      If newbalanceOrig == 2
+        Predict 0
+      If newbalanceOrig == 3
+        If type == 5
+          If oldbalanceOrg == 5
+            If newbalanceDest == 5
+              Predict 0
+    If oldbalanceDest == 1
+      Predict 0
+  If amount == 1
+    If newbalanceDest == 0
+      If oldbalanceDest == 3
+        Predict 1
+      If oldbalanceDest == 2
+        If newbalanceOrig == 2
+          If type == 5
+            If oldbalanceOrg == 5
+              Predict 0
+        If newbalanceOrig == 3
+          If type == 5
+            If oldbalanceOrg == 5
+              Predict 0
+      If oldbalanceDest == 0
+        If newbalanceOrig == 4
+          Predict 0
+        If newbalanceOrig == 3
+          If type == 5
+            If oldbalanceOrg == 5
+              Predict 0
+        If newbalanceOrig == 2
+          Predict 0
+      If oldbalanceDest == 1
+        Predict 0
+    If newbalanceDest == 3
+      Predict 0
+    If newbalanceDest == 2
+      Predict 0
+  If amount == 3
+    If newbalanceDest == 3
+      Predict 0
+    If newbalanceDest == 1
+      Predict 0
+    If newbalanceDest == 0
+      Predict 0
+    If newbalanceDest == 2
+      If newbalanceOrig == 1
+        If type == 5
+          If oldbalanceOrg == 5
+            If oldbalanceDest == 5
+              Predict 0
+      If newbalanceOrig == 0
+        Predict 0
+  If amount == 4
+    If newbalanceOrig == 3
+      Predict 0
+    If newbalanceOrig == 2
+      If type == 5
+        If oldbalanceOrg == 5
+          If oldbalanceDest == 5
+            If newbalanceDest == 5
+              Predict 0
+    If newbalanceOrig == 1
+      Predict 0
+    If newbalanceOrig == 0
+      Predict 0
+If step == 6
+  If amount == 0
+    If oldbalanceDest == 1
+      If newbalanceOrig == 1
+        Predict 0
+      If newbalanceOrig == 2
+        Predict 0
+      If newbalanceOrig == 0
+        If type == 6
+          If oldbalanceOrg == 6
+            If newbalanceDest == 6
+              Predict 0
+    If oldbalanceDest == 0
+      If newbalanceOrig == 1
+        If type == 6
+          If oldbalanceOrg == 6
+            If newbalanceDest == 6
+              Predict 0
+      If newbalanceOrig == 0
+        Predict 0
+      If newbalanceOrig == 2
+        If type == 6
+          If oldbalanceOrg == 6
+            If newbalanceDest == 6
+              Predict 0
+    If oldbalanceDest == 2
+      If newbalanceOrig == 1
+        If type == 6
+          If oldbalanceOrg == 6
+            If newbalanceDest == 6
+              Predict 0
+      If newbalanceOrig == 2
+        If type == 6
+          If oldbalanceOrg == 6
+            If newbalanceDest == 6
+              Predict 0
+      If newbalanceOrig == 0
+        If type == 6
+          If oldbalanceOrg == 6
+            If newbalanceDest == 6
+              Predict 0
+    If oldbalanceDest == 3
+      If newbalanceOrig == 1
+        Predict 0
+      If newbalanceOrig == 2
+        If type == 6
+          If oldbalanceOrg == 6
+            If newbalanceDest == 6
+              Predict 0
+      If newbalanceOrig == 0
+        Predict 0
+    If oldbalanceDest == 4
+      Predict 0
+  If amount == 2
+    If oldbalanceDest == 0
+      If newbalanceOrig == 3
+        If type == 6
+          If oldbalanceOrg == 6
+            If newbalanceDest == 6
+              Predict 0
+      If newbalanceOrig == 2
+        If type == 6
+          If oldbalanceOrg == 6
+            If newbalanceDest == 6
+              Predict 0
+      If newbalanceOrig == 1
+        Predict 0
+      If newbalanceOrig == 0
+        Predict 0
+    If oldbalanceDest == 2
+      If newbalanceOrig == 2
+        If type == 6
+          If oldbalanceOrg == 6
+            If newbalanceDest == 6
+              Predict 0
+      If newbalanceOrig == 3
+        If type == 6
+          If oldbalanceOrg == 6
+            If newbalanceDest == 6
+              Predict 0
+      If newbalanceOrig == 1
+        Predict 0
+    If oldbalanceDest == 3
+      If newbalanceOrig == 3
+        If type == 6
+          If oldbalanceOrg == 6
+            If newbalanceDest == 6
+              Predict 0
+      If newbalanceOrig == 2
+        Predict 0
+    If oldbalanceDest == 1
+      Predict 0
+  If amount == 3
+    Predict 0
+  If amount == 4
+    If newbalanceOrig == 2
+      If newbalanceDest == 2
+        Predict 0
+      If newbalanceDest == 4
+        If type == 6
+          If oldbalanceOrg == 6
+            If oldbalanceDest == 6
+              Predict 0
+      If newbalanceDest == 1
+        Predict 0
+      If newbalanceDest == 3
+        Predict 0
+      If newbalanceDest == 0
+        Predict 0
+    If newbalanceOrig == 3
+      If newbalanceDest == 2
+        Predict 0
+      If newbalanceDest == 3
+        Predict 0
+      If newbalanceDest == 4
+        If type == 6
+          If oldbalanceOrg == 6
+            If oldbalanceDest == 6
+              Predict 0
+      If newbalanceDest == 0
+        Predict 0
+      If newbalanceDest == 1
+        Predict 0
+    If newbalanceOrig == 1
+      If newbalanceDest == 4
+        Predict 0
+      If newbalanceDest == 3
+        Predict 1
+      If newbalanceDest == 2
+        Predict 0
+  If amount == 1
+    If newbalanceOrig == 2
+      If newbalanceDest == 2
+        If type == 6
+          If oldbalanceOrg == 6
+            If oldbalanceDest == 6
+              Predict 0
+      If newbalanceDest == 0
+        Predict 0
+      If newbalanceDest == 1
+        Predict 0
+      If newbalanceDest == 3
+        Predict 0
+    If newbalanceOrig == 3
+      If newbalanceDest == 1
+        Predict 0
+      If newbalanceDest == 0
+        Predict 0
+      If newbalanceDest == 2
+        Predict 0
+      If newbalanceDest == 3
+        If type == 6
+          If oldbalanceOrg == 6
+            If oldbalanceDest == 6
+              Predict 0
+    If newbalanceOrig == 4
+      If newbalanceDest == 0
+        If type == 6
+          If oldbalanceOrg == 6
+            If oldbalanceDest == 6
+              Predict 0
+      If newbalanceDest == 2
+        Predict 0
+    If newbalanceOrig == 1
+      Predict 0
+If step == 7
+  If oldbalanceOrg == 1
+    If newbalanceDest == 3
+      If amount == 0
+        If type == 7
+          If newbalanceOrig == 7
+            If oldbalanceDest == 7
+              Predict 0
+      If amount == 3
+        If type == 7
+          If newbalanceOrig == 7
+            If oldbalanceDest == 7
+              Predict 0
+      If amount == 2
+        Predict 0
+    If newbalanceDest == 0
+      If oldbalanceDest == 0
+        If amount == 0
+          If type == 7
+            If newbalanceOrig == 7
+              Predict 0
+        If amount == 2
+          Predict 0
+        If amount == 3
+          Predict 0
+        If amount == 1
+          Predict 0
+      If oldbalanceDest == 1
+        If amount == 0
+          If type == 7
+            If newbalanceOrig == 7
+              Predict 0
+        If amount == 3
+          Predict 0
+        If amount == 1
+          Predict 0
+      If oldbalanceDest == 2
+        Predict 0
+    If newbalanceDest == 2
+      If amount == 0
+        If type == 7
+          If newbalanceOrig == 7
+            If oldbalanceDest == 7
+              Predict 0
+      If amount == 2
+        Predict 0
+      If amount == 3
+        Predict 0
+      If amount == 1
+        Predict 0
+      If amount == 4
+        Predict 0
+    If newbalanceDest == 1
+      If amount == 0
+        If type == 7
+          If newbalanceOrig == 7
+            If oldbalanceDest == 7
+              Predict 0
+      If amount == 3
+        If type == 7
+          If newbalanceOrig == 7
+            If oldbalanceDest == 7
+              Predict 0
+      If amount == 1
+        Predict 0
+      If amount == 2
+        Predict 0
+    If newbalanceDest == 4
+      If amount == 4
+        Predict 0
+      If amount == 0
+        Predict 0
+      If amount == 2
+        Predict 0
+      If amount == 3
+        Predict 1
+  If oldbalanceOrg == 2
+    If oldbalanceDest == 2
+      If amount == 0
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 2
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 1
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 4
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 3
+        Predict 0
+    If oldbalanceDest == 1
+      If amount == 2
+        Predict 0
+      If amount == 0
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 1
+        Predict 0
+      If amount == 4
+        Predict 0
+      If amount == 3
+        Predict 0
+    If oldbalanceDest == 0
+      If amount == 0
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 2
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 1
+        Predict 0
+      If amount == 4
+        Predict 0
+      If amount == 3
+        Predict 0
+    If oldbalanceDest == 3
+      If amount == 0
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 2
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 4
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 1
+        Predict 0
+    If oldbalanceDest == 4
+      If amount == 4
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 2
+        Predict 0
+      If amount == 0
+        Predict 0
+      If amount == 1
+        Predict 0
+  If oldbalanceOrg == 3
+    If oldbalanceDest == 0
+      If amount == 1
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 2
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 4
+        Predict 0
+    If oldbalanceDest == 1
+      If amount == 1
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 2
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 4
+        Predict 0
+    If oldbalanceDest == 2
+      If amount == 1
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 2
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 4
+        Predict 0
+    If oldbalanceDest == 3
+      If amount == 1
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 4
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 2
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+    If oldbalanceDest == 4
+      If amount == 4
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 1
+        Predict 0
+      If amount == 2
+        Predict 0
+  If oldbalanceOrg == 0
+    If amount == 0
+      If newbalanceDest == 2
+        If type == 7
+          If newbalanceOrig == 7
+            If oldbalanceDest == 7
+              Predict 0
+      If newbalanceDest == 1
+        If type == 7
+          If newbalanceOrig == 7
+            If oldbalanceDest == 7
+              Predict 0
+      If newbalanceDest == 3
+        If type == 7
+          If newbalanceOrig == 7
+            If oldbalanceDest == 7
+              Predict 0
+      If newbalanceDest == 0
+        If type == 7
+          If newbalanceOrig == 7
+            If oldbalanceDest == 7
+              Predict 0
+      If newbalanceDest == 4
+        If type == 7
+          If newbalanceOrig == 7
+            If oldbalanceDest == 7
+              Predict 0
+    If amount == 3
+      If newbalanceDest == 2
+        If type == 7
+          If newbalanceOrig == 7
+            If oldbalanceDest == 7
+              Predict 0
+      If newbalanceDest == 0
+        Predict 0
+      If newbalanceDest == 1
+        Predict 0
+      If newbalanceDest == 3
+        If type == 7
+          If newbalanceOrig == 7
+            If oldbalanceDest == 7
+              Predict 0
+    If amount == 4
+      Predict 0
+    If amount == 1
+      Predict 1
+    If amount == 2
+      If type == 7
+        If newbalanceOrig == 7
+          If oldbalanceDest == 7
+            If newbalanceDest == 7
+              Predict 0
+  If oldbalanceOrg == 4
+    If oldbalanceDest == 2
+      Predict 0
+    If oldbalanceDest == 0
+      Predict 0
+    If oldbalanceDest == 3
+      Predict 0
+    If oldbalanceDest == 1
+      If type == 7
+        If amount == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+    If oldbalanceDest == 4
+      If amount == 1
+        If type == 7
+          If newbalanceOrig == 7
+            If newbalanceDest == 7
+              Predict 0
+      If amount == 2
+        Predict 1
+If step == 8
+  If newbalanceOrig == 2
+    If oldbalanceOrg == 1
+      If amount == 0
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+      If amount == 2
+        Predict 0
+      If amount == 3
+        Predict 0
+      If amount == 4
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+      If amount == 1
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+    If oldbalanceOrg == 0
+      If amount == 0
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+      If amount == 3
+        Predict 0
+      If amount == 4
+        Predict 0
+      If amount == 2
+        Predict 0
+    If oldbalanceOrg == 3
+      If amount == 2
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+      If amount == 4
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+      If amount == 1
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+    If oldbalanceOrg == 2
+      If amount == 4
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+      If amount == 0
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+      If amount == 2
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+      If amount == 1
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+      If amount == 3
+        Predict 0
+    If oldbalanceOrg == 4
+      If type == 8
+        If amount == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+  If newbalanceOrig == 3
+    If newbalanceDest == 1
+      If amount == 2
+        Predict 0
+      If amount == 1
+        If type == 8
+          If oldbalanceOrg == 8
+            If oldbalanceDest == 8
+              Predict 0
+    If newbalanceDest == 3
+      If amount == 0
+        If oldbalanceDest == 1
+          If type == 8
+            If oldbalanceOrg == 8
+              Predict 0
+        If oldbalanceDest == 2
+          If type == 8
+            If oldbalanceOrg == 8
+              Predict 0
+        If oldbalanceDest == 0
+          If type == 8
+            If oldbalanceOrg == 8
+              Predict 0
+      If amount == 4
+        If oldbalanceDest == 3
+          If type == 8
+            If oldbalanceOrg == 8
+              Predict 0
+        If oldbalanceDest == 2
+          If type == 8
+            If oldbalanceOrg == 8
+              Predict 0
+        If oldbalanceDest == 1
+          Predict 0
+        If oldbalanceDest == 0
+          Predict 0
+      If amount == 2
+        If oldbalanceDest == 3
+          If type == 8
+            If oldbalanceOrg == 8
+              Predict 0
+        If oldbalanceDest == 2
+          If type == 8
+            If oldbalanceOrg == 8
+              Predict 0
+        If oldbalanceDest == 1
+          Predict 0
+        If oldbalanceDest == 0
+          Predict 0
+      If amount == 3
+        If oldbalanceDest == 0
+          Predict 0
+        If oldbalanceDest == 1
+          If type == 8
+            If oldbalanceOrg == 8
+              Predict 0
+      If amount == 1
+        If oldbalanceDest == 1
+          If type == 8
+            If oldbalanceOrg == 8
+              Predict 0
+        If oldbalanceDest == 2
+          Predict 0
+        If oldbalanceDest == 3
+          Predict 0
+        If oldbalanceDest == 0
+          Predict 0
+    If newbalanceDest == 0
+      If oldbalanceOrg == 3
+        If amount == 2
+          If type == 8
+            If oldbalanceDest == 8
+              Predict 0
+        If amount == 1
+          If type == 8
+            If oldbalanceDest == 8
+              Predict 0
+      If oldbalanceOrg == 4
+        If type == 8
+          If amount == 8
+            If oldbalanceDest == 8
+              Predict 0
+    If newbalanceDest == 2
+      If oldbalanceOrg == 3
+        If amount == 2
+          If type == 8
+            If oldbalanceDest == 8
+              Predict 0
+        If amount == 1
+          Predict 0
+      If oldbalanceOrg == 1
+        If amount == 0
+          If type == 8
+            If oldbalanceDest == 8
+              Predict 0
+        If amount == 2
+          Predict 0
+        If amount == 3
+          Predict 0
+      If oldbalanceOrg == 2
+        If amount == 2
+          If type == 8
+            If oldbalanceDest == 8
+              Predict 0
+        If amount == 0
+          If type == 8
+            If oldbalanceDest == 8
+              Predict 0
+        If amount == 1
+          Predict 0
+      If oldbalanceOrg == 0
+        Predict 0
+    If newbalanceDest == 4
+      If oldbalanceOrg == 3
+        If type == 8
+          If amount == 8
+            If oldbalanceDest == 8
+              Predict 0
+      If oldbalanceOrg == 2
+        Predict 0
+  If newbalanceOrig == 0
+    If amount == 0
+      If oldbalanceDest == 1
+        If type == 8
+          If oldbalanceOrg == 8
+            If newbalanceDest == 8
+              Predict 0
+      If oldbalanceDest == 2
+        If type == 8
+          If oldbalanceOrg == 8
+            If newbalanceDest == 8
+              Predict 0
+      If oldbalanceDest == 0
+        If type == 8
+          If oldbalanceOrg == 8
+            If newbalanceDest == 8
+              Predict 0
+    If amount == 2
+      If oldbalanceDest == 2
+        If type == 8
+          If oldbalanceOrg == 8
+            If newbalanceDest == 8
+              Predict 0
+      If oldbalanceDest == 3
+        If type == 8
+          If oldbalanceOrg == 8
+            If newbalanceDest == 8
+              Predict 0
+      If oldbalanceDest == 1
+        If type == 8
+          If oldbalanceOrg == 8
+            If newbalanceDest == 8
+              Predict 0
+      If oldbalanceDest == 0
+        If type == 8
+          If oldbalanceOrg == 8
+            If newbalanceDest == 8
+              Predict 0
+      If oldbalanceDest == 4
+        Predict 0
+    If amount == 1
+      If oldbalanceDest == 3
+        If type == 8
+          If oldbalanceOrg == 8
+            If newbalanceDest == 8
+              Predict 0
+      If oldbalanceDest == 4
+        If type == 8
+          If oldbalanceOrg == 8
+            If newbalanceDest == 8
+              Predict 0
+      If oldbalanceDest == 2
+        Predict 0
+      If oldbalanceDest == 1
+        If type == 8
+          If oldbalanceOrg == 8
+            If newbalanceDest == 8
+              Predict 0
+      If oldbalanceDest == 0
+        If type == 8
+          If oldbalanceOrg == 8
+            If newbalanceDest == 8
+              Predict 0
+    If amount == 4
+      Predict 0
+    If amount == 3
+      Predict 0
+  If newbalanceOrig == 1
+    If oldbalanceOrg == 1
+      If amount == 0
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+      If amount == 2
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+      If amount == 3
+        Predict 0
+      If amount == 1
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+      If amount == 4
+        Predict 0
+    If oldbalanceOrg == 4
+      Predict 0
+    If oldbalanceOrg == 2
+      If amount == 2
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+      If amount == 0
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+      If amount == 1
+        Predict 0
+      If amount == 4
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+    If oldbalanceOrg == 3
+      If amount == 2
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+      If amount == 1
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+      If amount == 4
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+    If oldbalanceOrg == 0
+      If amount == 0
+        If type == 8
+          If oldbalanceDest == 8
+            If newbalanceDest == 8
+              Predict 0
+      If amount == 3
+        Predict 0
+  If newbalanceOrig == 4
+    If amount == 4
+      If oldbalanceDest == 2
+        If type == 8
+          If oldbalanceOrg == 8
+            If newbalanceDest == 8
+              Predict 0
+      If oldbalanceDest == 3
+        If type == 8
+          If oldbalanceOrg == 8
+            If newbalanceDest == 8
+              Predict 0
+      If oldbalanceDest == 1
+        If type == 8
+          If oldbalanceOrg == 8
+            If newbalanceDest == 8
+              Predict 0
+      If oldbalanceDest == 0
+        Predict 0
+      If oldbalanceDest == 4
+        Predict 0
+    If amount == 0
+      If oldbalanceDest == 1
+        If type == 8
+          If oldbalanceOrg == 8
+            If newbalanceDest == 8
+              Predict 0
+      If oldbalanceDest == 2
+        If type == 8
+          If oldbalanceOrg == 8
+            If newbalanceDest == 8
+              Predict 0
+      If oldbalanceDest == 0
+        If type == 8
+          If oldbalanceOrg == 8
+            If newbalanceDest == 8
+              Predict 0
+    If amount == 2
+      If oldbalanceDest == 3
+        If type == 8
+          If oldbalanceOrg == 8
+            If newbalanceDest == 8
+              Predict 0
+      If oldbalanceDest == 2
+        If type == 8
+          If oldbalanceOrg == 8
+            If newbalanceDest == 8
+              Predict 0
+      If oldbalanceDest == 1
+        Predict 0
+    If amount == 1
+      If oldbalanceDest == 3
+        Predict 0
+      If oldbalanceDest == 4
+        Predict 0
+      If oldbalanceDest == 1
+        If type == 8
+          If oldbalanceOrg == 8
+            If newbalanceDest == 8
+              Predict 0
+      If oldbalanceDest == 2
+        Predict 0
+    If amount == 3
+      Predict 0
+If step == 9
+  If newbalanceDest == 2
+    If newbalanceOrig == 1
+      If oldbalanceOrg == 3
+        If amount == 1
+          Predict 0
+        If amount == 2
+          If type == 9
+            If oldbalanceDest == 9
+              Predict 0
+        If amount == 4
+          If type == 9
+            If oldbalanceDest == 9
+              Predict 0
+      If oldbalanceOrg == 2
+        If amount == 2
+          If type == 9
+            If oldbalanceDest == 9
+              Predict 0
+        If amount == 4
+          If type == 9
+            If oldbalanceDest == 9
+              Predict 0
+        If amount == 1
+          Predict 0
+      If oldbalanceOrg == 1
+        If amount == 2
+          If type == 9
+            If oldbalanceDest == 9
+              Predict 0
+        If amount == 4
+          Predict 0
+        If amount == 3
+          Predict 0
+      If oldbalanceOrg == 4
+        Predict 0
+      If oldbalanceOrg == 0
+        Predict 0
+    If newbalanceOrig == 3
+      If amount == 1
+        Predict 0
+      If amount == 4
+        If oldbalanceDest == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If oldbalanceDest == 3
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If oldbalanceDest == 1
+          Predict 0
+      If amount == 2
+        If oldbalanceDest == 3
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If oldbalanceDest == 1
+          Predict 0
+        If oldbalanceDest == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If oldbalanceDest == 0
+          Predict 0
+      If amount == 3
+        Predict 0
+    If newbalanceOrig == 4
+      If oldbalanceOrg == 2
+        If amount == 4
+          If type == 9
+            If oldbalanceDest == 9
+              Predict 0
+        If amount == 2
+          Predict 0
+        If amount == 1
+          Predict 0
+      If oldbalanceOrg == 1
+        If amount == 4
+          If type == 9
+            If oldbalanceDest == 9
+              Predict 0
+        If amount == 2
+          Predict 0
+      If oldbalanceOrg == 3
+        Predict 0
+      If oldbalanceOrg == 4
+        If type == 9
+          If amount == 9
+            If oldbalanceDest == 9
+              Predict 0
+      If oldbalanceOrg == 0
+        Predict 0
+    If newbalanceOrig == 2
+      If oldbalanceOrg == 2
+        If amount == 2
+          If type == 9
+            If oldbalanceDest == 9
+              Predict 0
+        If amount == 4
+          If type == 9
+            If oldbalanceDest == 9
+              Predict 0
+        If amount == 1
+          Predict 0
+        If amount == 3
+          Predict 0
+      If oldbalanceOrg == 3
+        If amount == 2
+          If type == 9
+            If oldbalanceDest == 9
+              Predict 0
+        If amount == 4
+          If type == 9
+            If oldbalanceDest == 9
+              Predict 0
+        If amount == 1
+          Predict 0
+      If oldbalanceOrg == 1
+        If amount == 3
+          Predict 0
+        If amount == 4
+          Predict 0
+        If amount == 2
+          Predict 0
+        If amount == 1
+          If type == 9
+            If oldbalanceDest == 9
+              Predict 0
+      If oldbalanceOrg == 4
+        If type == 9
+          If amount == 9
+            If oldbalanceDest == 9
+              Predict 0
+      If oldbalanceOrg == 0
+        Predict 0
+    If newbalanceOrig == 0
+      If oldbalanceOrg == 3
+        If amount == 2
+          If type == 9
+            If oldbalanceDest == 9
+              Predict 0
+        If amount == 4
+          Predict 0
+        If amount == 1
+          Predict 0
+      If oldbalanceOrg == 2
+        If amount == 1
+          Predict 0
+        If amount == 4
+          Predict 0
+        If amount == 2
+          If type == 9
+            If oldbalanceDest == 9
+              Predict 0
+        If amount == 3
+          Predict 0
+      If oldbalanceOrg == 0
+        Predict 0
+      If oldbalanceOrg == 1
+        If amount == 2
+          If type == 9
+            If oldbalanceDest == 9
+              Predict 0
+        If amount == 1
+          Predict 0
+        If amount == 4
+          Predict 0
+        If amount == 3
+          Predict 0
+      If oldbalanceOrg == 4
+        Predict 0
+  If newbalanceDest == 0
+    If amount == 1
+      If newbalanceOrig == 4
+        If type == 9
+          If oldbalanceOrg == 9
+            If oldbalanceDest == 9
+              Predict 0
+      If newbalanceOrig == 3
+        If type == 9
+          If oldbalanceOrg == 9
+            If oldbalanceDest == 9
+              Predict 0
+      If newbalanceOrig == 2
+        If type == 9
+          If oldbalanceOrg == 9
+            If oldbalanceDest == 9
+              Predict 0
+      If newbalanceOrig == 1
+        Predict 1
+      If newbalanceOrig == 0
+        Predict 0
+    If amount == 0
+      If oldbalanceDest == 1
+        If newbalanceOrig == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 1
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 0
+          Predict 0
+      If oldbalanceDest == 2
+        If newbalanceOrig == 1
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 0
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+      If oldbalanceDest == 0
+        If newbalanceOrig == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 1
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 0
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+      If oldbalanceDest == 3
+        If newbalanceOrig == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 1
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 0
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+      If oldbalanceDest == 4
+        If newbalanceOrig == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 1
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 0
+          Predict 0
+    If amount == 2
+      If newbalanceOrig == 3
+        If type == 9
+          If oldbalanceOrg == 9
+            If oldbalanceDest == 9
+              Predict 0
+      If newbalanceOrig == 1
+        Predict 0
+      If newbalanceOrig == 2
+        If type == 9
+          If oldbalanceOrg == 9
+            If oldbalanceDest == 9
+              Predict 0
+      If newbalanceOrig == 0
+        Predict 0
+      If newbalanceOrig == 4
+        Predict 1
+    If amount == 4
+      If oldbalanceDest == 0
+        If newbalanceOrig == 2
+          Predict 0
+        If newbalanceOrig == 1
+          Predict 0
+        If newbalanceOrig == 3
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+      If oldbalanceDest == 2
+        If newbalanceOrig == 3
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 1
+          Predict 0
+        If newbalanceOrig == 0
+          Predict 0
+      If oldbalanceDest == 3
+        If newbalanceOrig == 3
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 2
+          Predict 0
+        If newbalanceOrig == 1
+          Predict 0
+      If oldbalanceDest == 1
+        If newbalanceOrig == 3
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 1
+          Predict 0
+        If newbalanceOrig == 0
+          Predict 0
+      If oldbalanceDest == 4
+        Predict 0
+  If newbalanceDest == 4
+    If amount == 2
+      If newbalanceOrig == 3
+        If type == 9
+          If oldbalanceOrg == 9
+            If oldbalanceDest == 9
+              Predict 0
+      If newbalanceOrig == 2
+        If type == 9
+          If oldbalanceOrg == 9
+            If oldbalanceDest == 9
+              Predict 0
+      If newbalanceOrig == 4
+        Predict 0
+      If newbalanceOrig == 1
+        If type == 9
+          If oldbalanceOrg == 9
+            If oldbalanceDest == 9
+              Predict 0
+      If newbalanceOrig == 0
+        Predict 0
+    If amount == 4
+      If oldbalanceDest == 0
+        If newbalanceOrig == 3
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 1
+          Predict 0
+        If newbalanceOrig == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+      If oldbalanceDest == 3
+        If newbalanceOrig == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 3
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 1
+          Predict 0
+      If oldbalanceDest == 4
+        If newbalanceOrig == 3
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 1
+          Predict 0
+        If newbalanceOrig == 0
+          Predict 0
+        If newbalanceOrig == 4
+          Predict 0
+      If oldbalanceDest == 2
+        If newbalanceOrig == 3
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 2
+          Predict 0
+        If newbalanceOrig == 1
+          Predict 0
+        If newbalanceOrig == 0
+          Predict 0
+      If oldbalanceDest == 1
+        If newbalanceOrig == 3
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 2
+          Predict 0
+        If newbalanceOrig == 1
+          Predict 0
+    If amount == 1
+      If oldbalanceDest == 0
+        If newbalanceOrig == 4
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 3
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 0
+          Predict 0
+      If oldbalanceDest == 2
+        If newbalanceOrig == 4
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 3
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+      If oldbalanceDest == 3
+        If newbalanceOrig == 4
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 3
+          Predict 0
+        If newbalanceOrig == 2
+          Predict 0
+      If oldbalanceDest == 1
+        If newbalanceOrig == 4
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 3
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 2
+          Predict 0
+      If oldbalanceDest == 4
+        Predict 0
+    If amount == 3
+      Predict 0
+  If newbalanceDest == 3
+    If oldbalanceDest == 0
+      If newbalanceOrig == 2
+        If oldbalanceOrg == 3
+          If amount == 1
+            If type == 9
+              Predict 0
+          If amount == 2
+            If type == 9
+              Predict 0
+        If oldbalanceOrg == 4
+          If type == 9
+            If amount == 9
+              Predict 0
+        If oldbalanceOrg == 2
+          If amount == 2
+            If type == 9
+              Predict 0
+          If amount == 1
+            Predict 0
+      If newbalanceOrig == 0
+        If amount == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If amount == 1
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If amount == 3
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If amount == 4
+          Predict 1
+      If newbalanceOrig == 1
+        If oldbalanceOrg == 3
+          If amount == 2
+            If type == 9
+              Predict 0
+          If amount == 1
+            Predict 0
+        If oldbalanceOrg == 4
+          Predict 0
+        If oldbalanceOrg == 2
+          Predict 0
+        If oldbalanceOrg == 1
+          If amount == 2
+            If type == 9
+              Predict 0
+          If amount == 3
+            Predict 0
+      If newbalanceOrig == 3
+        If amount == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If amount == 1
+          Predict 0
+      If newbalanceOrig == 4
+        Predict 1
+    If oldbalanceDest == 3
+      If amount == 4
+        If newbalanceOrig == 3
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 1
+          Predict 0
+      If amount == 2
+        If newbalanceOrig == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 3
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 1
+          Predict 0
+      If amount == 1
+        If newbalanceOrig == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 3
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 4
+          Predict 0
+        If newbalanceOrig == 0
+          Predict 0
+      If amount == 3
+        If newbalanceOrig == 1
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 0
+          Predict 0
+        If newbalanceOrig == 2
+          Predict 0
+        If newbalanceOrig == 3
+          Predict 0
+    If oldbalanceDest == 4
+      If oldbalanceOrg == 3
+        If amount == 4
+          If type == 9
+            If newbalanceOrig == 9
+              Predict 0
+        If amount == 2
+          Predict 0
+        If amount == 1
+          Predict 0
+      If oldbalanceOrg == 2
+        If amount == 4
+          If type == 9
+            If newbalanceOrig == 9
+              Predict 0
+        If amount == 2
+          Predict 0
+        If amount == 3
+          Predict 0
+        If amount == 1
+          Predict 0
+      If oldbalanceOrg == 1
+        If amount == 4
+          If type == 9
+            If newbalanceOrig == 9
+              Predict 0
+        If amount == 2
+          Predict 0
+      If oldbalanceOrg == 0
+        If type == 9
+          If amount == 9
+            If newbalanceOrig == 9
+              Predict 0
+    If oldbalanceDest == 2
+      If amount == 4
+        If newbalanceOrig == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 1
+          Predict 0
+      If amount == 2
+        If newbalanceOrig == 3
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 2
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 1
+          Predict 0
+      If amount == 3
+        If newbalanceOrig == 1
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 0
+          Predict 0
+      If amount == 1
+        If newbalanceOrig == 3
+          If type == 9
+            If oldbalanceOrg == 9
+              Predict 0
+        If newbalanceOrig == 2
+          Predict 0
+        If newbalanceOrig == 1
+          Predict 0
+    If oldbalanceDest == 1
+      If oldbalanceOrg == 2
+        If type == 9
+          If amount == 9
+            If newbalanceOrig == 9
+              Predict 0
+      If oldbalanceOrg == 1
+        Predict 0
+      If oldbalanceOrg == 3
+        If type == 9
+          If amount == 9
+            If newbalanceOrig == 9
+              Predict 0
+  If newbalanceDest == 1
+    If oldbalanceDest == 0
+      If oldbalanceOrg == 3
+        If amount == 2
+          If type == 9
+            If newbalanceOrig == 9
+              Predict 0
+        If amount == 1
+          If type == 9
+            If newbalanceOrig == 9
+              Predict 0
+      If oldbalanceOrg == 4
+        Predict 0
+      If oldbalanceOrg == 2
+        Predict 0
+      If oldbalanceOrg == 1
+        Predict 0
+      If oldbalanceOrg == 0
+        Predict 0
+    If oldbalanceDest == 3
+      If newbalanceOrig == 3
+        If oldbalanceOrg == 3
+          If amount == 4
+            If type == 9
+              Predict 0
+          If amount == 2
+            Predict 0
+          If amount == 1
+            Predict 0
+        If oldbalanceOrg == 2
+          If amount == 4
+            Predict 0
+          If amount == 2
+            If type == 9
+              Predict 0
+        If oldbalanceOrg == 1
+          Predict 0
+        If oldbalanceOrg == 0
+          Predict 0
+      If newbalanceOrig == 2
+        If oldbalanceOrg == 3
+          If type == 9
+            If amount == 9
+              Predict 0
+        If oldbalanceOrg == 2
+          Predict 0
+      If newbalanceOrig == 1
+        Predict 0
+      If newbalanceOrig == 0
+        Predict 0
+    If oldbalanceDest == 1
+      If newbalanceOrig == 1
+        If type == 9
+          If amount == 9
+            If oldbalanceOrg == 9
+              Predict 0
+      If newbalanceOrig == 3
+        Predict 0
+      If newbalanceOrig == 2
+        Predict 0
+    If oldbalanceDest == 2
+      If oldbalanceOrg == 2
+        If amount == 2
+          If type == 9
+            If newbalanceOrig == 9
+              Predict 0
+        If amount == 4
+          Predict 0
+        If amount == 1
+          Predict 0
+      If oldbalanceOrg == 3
+        Predict 0
+      If oldbalanceOrg == 0
+        Predict 0
+      If oldbalanceOrg == 1
+        If amount == 4
+          If type == 9
+            If newbalanceOrig == 9
+              Predict 0
+        If amount == 3
+          Predict 0
+        If amount == 2
+          Predict 0
+    If oldbalanceDest == 4
+      Predict 0
+If step == 10
+  If oldbalanceOrg == 2
+    If oldbalanceDest == 2
+      If amount == 0
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 2
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 1
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 4
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 3
+        Predict 0
+    If oldbalanceDest == 1
+      If amount == 0
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 4
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 2
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 1
+        Predict 0
+    If oldbalanceDest == 3
+      If amount == 0
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 2
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 4
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 1
+        Predict 0
+      If amount == 3
+        Predict 0
+    If oldbalanceDest == 0
+      If amount == 0
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 1
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 2
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 4
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 3
+        Predict 0
+    If oldbalanceDest == 4
+      If amount == 4
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 2
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 1
+        Predict 0
+      If amount == 0
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+  If oldbalanceOrg == 3
+    If newbalanceDest == 0
+      If oldbalanceDest == 2
+        If amount == 2
+          If type == 10
+            If newbalanceOrig == 10
+              Predict 0
+        If amount == 1
+          If type == 10
+            If newbalanceOrig == 10
+              Predict 0
+      If oldbalanceDest == 1
+        If amount == 2
+          If type == 10
+            If newbalanceOrig == 10
+              Predict 0
+        If amount == 1
+          If type == 10
+            If newbalanceOrig == 10
+              Predict 0
+      If oldbalanceDest == 0
+        If amount == 2
+          If type == 10
+            If newbalanceOrig == 10
+              Predict 0
+        If amount == 1
+          If type == 10
+            If newbalanceOrig == 10
+              Predict 0
+        If amount == 3
+          Predict 0
+      If oldbalanceDest == 3
+        If amount == 2
+          If type == 10
+            If newbalanceOrig == 10
+              Predict 0
+        If amount == 1
+          If type == 10
+            If newbalanceOrig == 10
+              Predict 0
+    If newbalanceDest == 3
+      If oldbalanceDest == 3
+        If amount == 4
+          If type == 10
+            If newbalanceOrig == 10
+              Predict 0
+        If amount == 2
+          If type == 10
+            If newbalanceOrig == 10
+              Predict 0
+        If amount == 1
+          Predict 0
+      If oldbalanceDest == 2
+        If type == 10
+          If amount == 10
+            If newbalanceOrig == 10
+              Predict 0
+      If oldbalanceDest == 0
+        If type == 10
+          If amount == 10
+            If newbalanceOrig == 10
+              Predict 0
+      If oldbalanceDest == 1
+        If type == 10
+          If amount == 10
+            If newbalanceOrig == 10
+              Predict 0
+      If oldbalanceDest == 4
+        Predict 0
+    If newbalanceDest == 4
+      If amount == 4
+        If type == 10
+          If newbalanceOrig == 10
+            If oldbalanceDest == 10
+              Predict 0
+      If amount == 2
+        Predict 0
+      If amount == 1
+        Predict 0
+    If newbalanceDest == 2
+      If amount == 2
+        If type == 10
+          If newbalanceOrig == 10
+            If oldbalanceDest == 10
+              Predict 0
+      If amount == 1
+        If type == 10
+          If newbalanceOrig == 10
+            If oldbalanceDest == 10
+              Predict 0
+    If newbalanceDest == 1
+      Predict 0
+  If oldbalanceOrg == 4
+    If oldbalanceDest == 2
+      If type == 10
+        If amount == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+    If oldbalanceDest == 0
+      If amount == 1
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 2
+        Predict 0
+    If oldbalanceDest == 1
+      If type == 10
+        If amount == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+    If oldbalanceDest == 3
+      If type == 10
+        If amount == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+    If oldbalanceDest == 4
+      If amount == 1
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 4
+        Predict 0
+  If oldbalanceOrg == 1
+    If amount == 0
+      If newbalanceDest == 2
+        If type == 10
+          If newbalanceOrig == 10
+            If oldbalanceDest == 10
+              Predict 0
+      If newbalanceDest == 3
+        If type == 10
+          If newbalanceOrig == 10
+            If oldbalanceDest == 10
+              Predict 0
+      If newbalanceDest == 0
+        If type == 10
+          If newbalanceOrig == 10
+            If oldbalanceDest == 10
+              Predict 0
+      If newbalanceDest == 4
+        If type == 10
+          If newbalanceOrig == 10
+            If oldbalanceDest == 10
+              Predict 0
+      If newbalanceDest == 1
+        If type == 10
+          If newbalanceOrig == 10
+            If oldbalanceDest == 10
+              Predict 0
+    If amount == 2
+      If newbalanceDest == 0
+        If type == 10
+          If newbalanceOrig == 10
+            If oldbalanceDest == 10
+              Predict 0
+      If newbalanceDest == 3
+        If type == 10
+          If newbalanceOrig == 10
+            If oldbalanceDest == 10
+              Predict 0
+      If newbalanceDest == 2
+        If type == 10
+          If newbalanceOrig == 10
+            If oldbalanceDest == 10
+              Predict 0
+      If newbalanceDest == 1
+        Predict 0
+      If newbalanceDest == 4
+        Predict 0
+    If amount == 3
+      If newbalanceDest == 1
+        If type == 10
+          If newbalanceOrig == 10
+            If oldbalanceDest == 10
+              Predict 0
+      If newbalanceDest == 3
+        If type == 10
+          If newbalanceOrig == 10
+            If oldbalanceDest == 10
+              Predict 0
+      If newbalanceDest == 2
+        Predict 0
+      If newbalanceDest == 0
+        Predict 0
+      If newbalanceDest == 4
+        If type == 10
+          If newbalanceOrig == 10
+            If oldbalanceDest == 10
+              Predict 0
+    If amount == 4
+      If newbalanceDest == 4
+        If type == 10
+          If newbalanceOrig == 10
+            If oldbalanceDest == 10
+              Predict 0
+      If newbalanceDest == 2
+        Predict 0
+      If newbalanceDest == 3
+        If type == 10
+          If newbalanceOrig == 10
+            If oldbalanceDest == 10
+              Predict 0
+      If newbalanceDest == 1
+        Predict 0
+      If newbalanceDest == 0
+        Predict 0
+    If amount == 1
+      Predict 0
+  If oldbalanceOrg == 0
+    If oldbalanceDest == 1
+      Predict 0
+    If oldbalanceDest == 3
+      If amount == 0
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 4
+        Predict 0
+      If amount == 3
+        Predict 0
+      If amount == 2
+        Predict 0
+    If oldbalanceDest == 2
+      If amount == 0
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 2
+        Predict 0
+      If amount == 3
+        Predict 0
+      If amount == 4
+        Predict 0
+    If oldbalanceDest == 0
+      If amount == 0
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 2
+        Predict 0
+      If amount == 3
+        Predict 0
+      If amount == 1
+        Predict 0
+    If oldbalanceDest == 4
+      If amount == 0
+        If type == 10
+          If newbalanceOrig == 10
+            If newbalanceDest == 10
+              Predict 0
+      If amount == 4
+        Predict 0
+      If amount == 3
+        Predict 0
